@@ -110,8 +110,7 @@
         <module name="NoFinalizer"/>
         <module name="SuperClone"/>
         <module name="SuperFinalize"/>
-        <module name="JUnitTestCase"/>
-
+        
         <!-- Avoid masking of OutOfMemoryError or NullPointerExceptionError -->
         <module name="IllegalCatch"/>
 
