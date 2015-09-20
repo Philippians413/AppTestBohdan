@@ -1,6 +1,8 @@
 package ua.yandex.shad;
 
 public class App {
+    
+    private App(){}
 
     public static final int MIN_TEMPERATURE = -273;
 

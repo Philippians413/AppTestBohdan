@@ -10,8 +10,7 @@ public class AppTest {
   public void testAvg() {    
     double x = 0.0; double y = 0.0; 
     double expResult = 0.0;
-    double result = App.avg(x, y);
-    
+    double result = App.avg(x, y);    
     assertEquals(expResult, result, 0.001);
     //fail("The test case is a prototype.");
   }
