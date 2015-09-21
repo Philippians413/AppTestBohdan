@@ -34,5 +34,21 @@ public class AppTest {
     int[] arr = {0, 10, -100, -274};   
     App.findTempClosestToZero(arr);    
   }
+  
+  @Test
+  public void testFindTempClosestToZero_WithPositiveTempsList(){
+    int[] arr = {30, 10, 10, 3, 123, 150};  
+    int expResult = 3;
+    int result = App.findTempClosestToZero(arr);   
+    assertEquals(expResult, result);
+  }
+  
+  @Test
+  public void testFindTempClosestToZero_WithZeroTempInList(){
+    int[] arr = {30, 10, 0, 3, 123, 150};  
+    int expResult = 0;
+    int result = App.findTempClosestToZero(arr);   
+    assertEquals(expResult, result);
+  }
 
 }

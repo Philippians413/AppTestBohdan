@@ -14,11 +14,16 @@ public class App {
 	if (arr.length == 0) {
 	  throw new IllegalArgumentException();      
 	}
+	int min = arr[0];
 	for(int val : arr) {
+	  if (val == 0) return 0;
+	  if (val < min) {
+	    min = val;
+	  }
 	  if (val < MIN_TEMPERATURE) {
 	    throw new IllegalArgumentException();
 	  }
 	}
-	return arr[0];
+	return min;
     }
 }
