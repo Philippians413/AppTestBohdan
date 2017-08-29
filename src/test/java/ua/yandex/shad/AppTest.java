@@ -29,8 +29,7 @@ public class AppTest {
     assertEquals(expResult, result);
   }
   
-  @Test(expected = IllegalArgumentException.class)
-  @Ignore
+  //@Test(expected = IllegalArgumentException.class)
   public void testFindTempClosestToZero_FailTemperatureOutOfRange(){
     int[] arr = {0, 10, -100, -274};   
     App.findTempClosestToZero(arr);    
