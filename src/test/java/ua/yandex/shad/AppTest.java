@@ -6,6 +6,10 @@ import static org.junit.Assert.*;
 
 public class AppTest {
   
+  public static void main(String[] args) {
+        System.out.print(avg(3.0,3.0));
+    }
+  
   @Test
   public void testAvg() {    
     double x = 0.0; double y = 0.0; 
