@@ -2,8 +2,8 @@ package ua.yandex.shad;
 
 public class App {
 
-	public static void main(String[] args) {
-        	System.out.print(avg(3.0,3.0));
+    public static void main(String[] args) {
+      System.out.print(avg(3.0,3.0));
     }
 	
     private App(){}
